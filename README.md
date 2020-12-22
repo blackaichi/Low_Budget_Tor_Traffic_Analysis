@@ -13,7 +13,7 @@ This project work 100% for Ubuntu 18.04 LTS, for other server versions you must 
 
 ## Deployment Steps
 
-Recomended tree for this project (I will asume all commends from root/tma/
+Recomended tree for this project (I will asume all commands from root/tma/
 
 root  
  ├── go             (installation of golang)  
@@ -23,6 +23,8 @@ root
     ├── logs        (where we will save logs)  
     ├── scripts       (where we will place scripts)  
     └── tor_deploy.sh    (tor script to deploy the relay)  
+    
+0. Install Golang: https://golang.org/doc/install
     
 1. Download the whole repository and the other necessary ones:   
 ``` console
@@ -46,3 +48,4 @@ $ bash scripts/checkMem.sh
 ```console
 $ nohup bash httpdump/httpdump -level tma -output httpdump/aux.txt &
 ```
+After all this steps we will grab all the http requests and responses that we will do.
