@@ -51,3 +51,19 @@ $ bash scripts/checkMem.sh
 $ nohup bash httpdump/httpdump -level tma -output httpdump/aux.txt &
 ```
 After all this steps we will grab all the http requests and responses that we will do.
+
+## Host Scripts
+
+The host scripts are 2:
+- downloadLogs.sh: Download the logs from the server and then delete the logs.
+- order_Parser.sh: Parse the data to make it easy to introduce it into the database.
+
+## Data_Analyzer
+
+- categorize_country_domains.cc: Thats a program to automate the categorization of the top domain levels inside a csv.
+
+## Usefull code on other Githubs
+
+- https://github.com/rogercoll/httpdump
+- https://github.com/rogercoll/shallalist
+- https://github.com/rogercoll/urlCategorization
