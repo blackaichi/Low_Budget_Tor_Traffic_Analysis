@@ -13,7 +13,7 @@ This project work 100% for Ubuntu 18.04 LTS, for other server versions you must 
 
 ## Deployment Steps
 
-Recomended tree for this project (I will asume all commands from root/tma/
+Recomended tree for this project (I will asume all commands from root/tma/)
 
 root  
  ├── go             (installation of golang)  
@@ -30,6 +30,8 @@ root
 ``` console
 $ git clone https://github.com/blackaichi/Low_Budget_Tor_Traffic_Analysis   
 $ git clone https://github.com/rogercoll/httpdump
+$ git clone https://github.com/rogercoll/shallalist
+$ git clone https://github.com/rogercoll/urlCategorization
 ```
 
 2. Copy the server files to your VPS and copy the files inside scripts_maintenance inside root/tma/scripts and tor_deploy in root/tma
